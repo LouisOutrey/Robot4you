@@ -97,12 +97,17 @@ h3 {
 /* ********************PRESNETATION*************** */
 
 #presentation {
-    background-color: white;
+    background-color:#d3ebf2;
     padding: 10px 0px 100px 0;
 }
 #texteIntro {
     padding: 1px, 100%;
 }
+
+#texteIntro h2{
+    color: #77c0db;
+}
+
 #presentation {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +120,11 @@ h3 {
     font-size: 1.8em;
     margin: 15px;
     font-weight: 300;
+    color: #77c0db;
+}
+
+.imagesPresentation iframe {
+    border-radius: 20px;
 }
 
 .imagesPresentation img {
@@ -124,4 +134,54 @@ h3 {
     opacity: 0.5;
     transform: scale(1.05);
     transition: 0.8s ease-in-out;
+}
+
+/* *******************service******************** */
+
+#NosServices {
+    height: 1400px;
+    background-color: white;
+    padding: 1px 2%;
+}
+
+#NosServices h2 {
+    padding-top: 60px;
+}
+
+#qualité {
+    background: url(media/quality.jpg);
+}
+
+#controle {
+    background: url(media/control.jpg);
+}
+
+#sav {
+    background: url(media/sav.jpg);
+}
+
+#suivi {
+    background: url(media/help.jpg);
+}
+
+#NosServices li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+}
+
+#NosServices p {
+    height: 45px;
+    width: 235px;
+    background-color: #77c0db;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px #77c0db;
+
 }
